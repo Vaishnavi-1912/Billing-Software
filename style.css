@@ -1,0 +1,15 @@
+/* style.css */
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+}

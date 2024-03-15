@@ -1,0 +1,30 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Billing System</h1>
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul id="menu-list">
+                <li><input type="checkbox" name="item" value="Burger" data-price="5"> Burger - $5</li>
+                <li><input type="checkbox" name="item" value="Pizza" data-price="8"> Pizza - $8</li>
+                <li><input type="checkbox" name="item" value="Pasta" data-price="10"> Pasta - $10</li>
+                <!-- Add more menu items as needed -->
+            </ul>
+        </div>
+        <div class="form">
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <div id="total"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
